@@ -2,11 +2,11 @@ body {
   font-family: 'Roboto Mono', monospace;
 }
 /*Header STARTS */
+
 .nav-link, .navbar-brand{
   margin: 0 18px;
 }
 .nav-link:hover{
-  background-color: lightgray;
   transform: scale(1.2);
 }
 /* Header ENDS */
@@ -16,7 +16,7 @@ body {
   width: 100%;
   height: 800px;
   color: #fff;
-  background-color: #090909;
+  background-color: #0a0908;
 }
 .name{
   font-size: 48px;
@@ -32,29 +32,39 @@ body {
 }
 
 .card:hover{
-  transform: scale(1.05);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transform: scale(1.04);
 }
 #about{
   height: auto;
   width: 100%;
-  background-color: #8f8f8f;
+  color: #000;
+  background-color: #F6F5F4 ;
 
 }
 #projects{
   height: auto;
   width: 100%;
-  background-color: #f0f0f0;
-
+  background-color: #E4D8C9; 
+ 
 }
 #blog{
   height: auto;
+  margin-bottom:0;
   width: 100%;
-  background-color: #9f9f9f;
 }
 /* Main ENDS */
 
 /* Footer STARTS */
-
+.footer{
+  color: #fff ;
+  background-color: #0a0908;
+}
+#footer-below{
+  margin: 0;
+  padding: 12px;
+  box-sizing: border-box;
+}
 /* Footer ENDS */
 /* Media query*/
 @media screen and (max-width: 480px) {
