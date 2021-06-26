@@ -6,8 +6,11 @@ body {
 .nav-link, .navbar-brand{
   margin: 0 18px;
 }
-.nav-link:hover{
-  transform: scale(1.2);
+
+
+.active{
+  background-color: #D4B0B1;
+  border-radius: 12px;
 }
 /* Header ENDS */
 
@@ -31,9 +34,8 @@ body {
   margin: 10px;
 }
 
-.card:hover{
+.card{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  transform: scale(1.04);
 }
 #about{
   height: auto;
